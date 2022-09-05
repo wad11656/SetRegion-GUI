@@ -4,7 +4,7 @@
 
 Convert the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA without modifying the game's display resolution.
 
-Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators (which use the BIOS that corresponds to the region in the `.bin`'s region sectors). Changing the `GameID` in PSX2PSP when you make the EBOOT is often an additional required step to fix game compatibility. (See compatibility list below for info on your game.)
+Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators (which chooses which region of BIOS to run the game under based on the `.bin`'s region sectors). Changing the `GameID` in PSX2PSP when you make the EBOOT is often an additional required step to fix game compatibility. (See compatibility list below for info on your game.)
 
 [PSP PS1 Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing)
 
