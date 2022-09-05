@@ -8,9 +8,9 @@ Primarily used today to fix/increase certain PS1 games' compatibility on the PSP
 
 [PSP PS1 Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing)
 
-*Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool.
+ - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool.
 
-Check CDRomance for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
+ - Check CDRomance for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
 
 ### *Download is on the [Releases](https://github.com/wad11656/SetRegion-GUI/releases) Page.*
 <details><summary><h2>Background</h2></summary>
