@@ -2,11 +2,12 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/ScreenShot.png" width="500"/></p>
 
-Convert the region sectors of a PS1 `.bin` image into JAP, PAL, or USA without stretching or compressing the game's display resolution.
+Convert the region sectors of a PS1 `.bin` image into JAP, PAL, or USA without modifying the game's display resolution.
 <br/>Primariy used today to fix/increase PS1 game compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
 
 *Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool.
 
+### *Download is on the [Releases](https://github.com/wad11656/SetRegion-GUI/releases) Page.*
 <details><summary><h2>Background</h2></summary>
 This is a GUI version of the original <a href="https://www.consolecopyworld.com/psx/psx_utils_pn_cnv.shtml#SetRegion">SetRegion</a>, which ConsoleCopyWorld dates back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of imported PS1 games to match the region of your own PS1 console, so that you could then burn your imported games to disc, then play those imported games on your real hardware.
 <br/>
