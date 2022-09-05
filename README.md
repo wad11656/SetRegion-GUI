@@ -3,7 +3,7 @@
 <p align="center"><img src="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/ScreenShot.png" width="500"/></p>
 
 Convert the region sectors of a PS1 `.bin` disc image into JAP, PAL, or USA without modifying the game's display resolution.
-<br/>Primariy used today to fix/increase PS1 game compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
+<br/>Primarily used today to fix/increase PS1 game compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
 
 *Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool.
 
