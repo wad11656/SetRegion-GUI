@@ -2,18 +2,23 @@
 
 <p align="center"><img src="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/ScreenShot.png" width="500"/></p>
 
+## About
 Convert the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA without modifying the game's display resolution.
 
-Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators (which chooses which region of BIOS to run the game under based on the `.bin`'s region sectors). Changing the `GameID` in PSX2PSP when you make the EBOOT is often an additional required step to fix game compatibility. (See compatibility list below for info on your game.)
-
-[PSP PS1 Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing)
-
- - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool.
-
- - Check CDRomance for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
+Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators: The emulators choose which region of BIOS to run the game under based on the `.bin`'s region sectors. Interestingly, some BIOS play foreign games better than the game's native-region BIOS.
 
 ### *Download is on the [Releases](https://github.com/wad11656/SetRegion-GUI/releases) Page.*
-<details><summary><h2>Background</h2></summary>
+
+## EBOOT Tips:
+
+ - Check CDRomance for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
+ - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool or PSX2PSP.
+ - Always use **Compression 9** in PSX2PSP when creating an EBOOT.
+   - [The_Ho](https://gbatemp.net/members/the_ho.583322/) says to use **Compression 1**. As long as it's above 0.
+ - Turn off **Theme Mode** when using PSX2PSP.
+ - Games that need region-changing often aditionally equire a custom `GameID` in PSX2PSP when making the EBOOT. Check the newest [PSP PS1 Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing) for more info.
+
+<details><summary><h2>History</h2></summary>
 This is a GUI version of the original <a href="https://www.consolecopyworld.com/psx/psx_utils_pn_cnv.shtml#SetRegion">SetRegion</a>, which ConsoleCopyWorld dates back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of imported PS1 games to match the region of your own PS1 console, so that you could then burn your imported games to disc, then play those imported games on your real hardware.
 <br/>
 <br/>SetRegion came back into utility for the gaming homebrew scene in 2021 when I discovered that it could be used to inject JAP, PAL, or USA region sectors into <i>any</i> PS1 game, thus increasing game compatibility on the PSP and Vita (Adrenaline) PS1 emulators. 
