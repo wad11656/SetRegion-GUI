@@ -10,6 +10,8 @@ Primarily used today to fix/increase certain PS1 games' compatibility on the PSP
 
 *Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool.
 
+Check CDRomance for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
+
 ### *Download is on the [Releases](https://github.com/wad11656/SetRegion-GUI/releases) Page.*
 <details><summary><h2>Background</h2></summary>
 This is a GUI version of the original <a href="https://www.consolecopyworld.com/psx/psx_utils_pn_cnv.shtml#SetRegion">SetRegion</a>, which ConsoleCopyWorld dates back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of imported PS1 games to match the region of your own PS1 console, so that you could then burn your imported games to disc, then play those imported games on your real hardware.
