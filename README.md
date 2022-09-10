@@ -13,7 +13,21 @@ Converts the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA with
 Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
 
 ### How does changing the region sectors help?
-The PSP & Vita PS1 emulators choose which region of BIOS to run the game under based on the `.bin`'s region sectors. After injecting foreign region sectors into a PS1 `.bin`  (and compiling it into an EBOOT using PSX2PSP), the emulators will use the corresponding foreign BIOS which, for some titles, results in better emulation than when using the game's native BIOS.
+The PSP & Vita PS1 emulators choose which region of BIOS to run the game under based on the `.bin`s region sectors. After injecting foreign region sectors into a PS1 `.bin`  (and compiling it into an EBOOT using PSX2PSP), the emulators will use the corresponding foreign BIOS which, for some titles, results in better emulation than when using the game's native BIOS.
+
+### Which games benefit from changing the region sectors?
+Most of the games that benefit are already published for download on CDRomance. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing).
+
+### I want to play a PS1 game whose working EBOOT isn't online & doesn't have a fix on your Compatibility List. How can I try to find a fix myself?
+There's 3 methods that you can mix & match with each other to find a fix for a PS1 game. You can use 1, 2, or all 3 of the methods combined:
+1. POPSLoader - Allows you to boot your game through older builds of the PSP/Vita PS1 emulator (called "POPS"). Try your game in all the builds listed in POPSLoader before trying region injection.
+2. GameID - Sony's identifer for PS1 games. Changing this field in PSX2PSP to a GameID of a different game can unlock special emulator settings tied to that GameID.
+<br/>_Most of the useful GameIDs are JAP GameIDs. A lot of these GameIDs are helpful on USA/PAL `.bin`s (on up-to-date PSP firmwares/Adrenaline) only if the `.bin`'s first injected with JAP region sectors._
+4. Region Injection - 
+
+There's probably more games out there that can increase compatibility or framerate by changing the region sectors. The go-to first formula to try when attempting to improve a game's emulation is to (1) inject it with JAP region sectors using SetRegion, then (2) compile it into an EBOOT using GameID SLPS-01222 (and Compression 9).
+<br/>Other JAP GameIDs that have proven to help with JAP-injected USA/PAL `.bin`s are SLPS-01223, SLPS-02190, SLPS-02191, SLPM-86500, SLPS-01724 and the GameID of the game's JAP counterpart. Some USA games also benefit from PAL GameIDs SLES-00972 and SLES-00973. USA games don't seem to need to be PAL-injected to benefit from these GameIDs.
+<br/>(PSP only) The final element of the formula for finding a fix to a game is changing the emulator version using the "POPSLoader" plugin. (The PS1 emulator is called "POPS".) (You should test every POPS version with your game first before injecting region sectors.) Use the POPSLoader plugin to try different emulator versions (the emulator is called "POPS") in conjuction with the JAP-injection and/or foreign GameID.
 
 ## EBOOT Tips:
 
