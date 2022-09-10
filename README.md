@@ -5,10 +5,14 @@
 ### *Download is on the [Releases](https://github.com/wad11656/SetRegion-GUI/releases) Page.*
 
 ## About
+
+### What
 Convert the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA without modifying the game's display resolution.
 
+### Why
 Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
 
+### How
 The PSP & Vita PS1 emulators choose which region of BIOS to run the game under based on the `.bin`'s region sectors. After injecting foreign region sectors into a PS1 `.bin`  (and compiling it into an EBOOT using PSX2PSP), the emulators will use the corresponding foreign BIOS which, for some titles, results in better emulation than when using the game's native BIOS.
 
 ## EBOOT Tips:
