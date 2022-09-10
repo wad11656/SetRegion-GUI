@@ -6,10 +6,10 @@
 
 ## About
 
-### What is it?
+### What does it do?
 Convert the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA without modifying the game's display resolution.
 
-### Why need it?
+### Why?
 Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
 
 ### How does changing the region sectors help?
