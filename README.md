@@ -60,11 +60,11 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 
 ## Game ID Tips:
 
-### Game ID
+### About "Game ID"
 - Affects game compatibility.
 - The ID used in the name of the save folder where your **single-disc EBOOT** save files are stored (`/PSP/SAVEDATA/<GAME_ID>/`).
 
-### Main Game ID
+### About "Main Game ID"
 - Doesn't affect game compatibility.
 - The ID used in the name of the save folder where your **multi-disc EBOOT** PS1 save files are stored (`/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
 - The ID recognized by plugins (e.g., POPSLoader & TempAR).
