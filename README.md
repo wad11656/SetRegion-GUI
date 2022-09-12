@@ -73,7 +73,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 - If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID **SLPS-01222**), **DO NOT WORRY**--The save files from each game _will **NOT** overwrite each other_, but will simply store to the same Virtual Memory Cards in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
 <br/>Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2).
   - However, EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't manage the saves for the individual games from there.
-  - On PSP, you can open **Memory Card Utility** in the emulator settings to manage the saves for the different games.
+  - On PSP, you can open **Memory Card Utility** from within the emulator to manage the saves for the different games.
   - **Memory Card Utility** doesn't work (for me) on Vita (Adrenaline), so you can't manage the individual saves for the different games. As a workaround, you can force the Vita to create separate **Save Data Utility** entries/Virtual Memory Cards for each game (while still sharing the same Game ID). To do this, add a dummy/placeholder PS1 disc in PSX2PSP while making each EBOOT. Since the EBOOT is now multi-disc, the Vita will use the **Main Game ID** instead of the **Game ID** when creating the save folder/Virtual Memory Cards. (Obviously, make the **Main Game ID** of each EBOOT different from each other.)
 
 ## History
