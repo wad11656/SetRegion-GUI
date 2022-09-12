@@ -22,21 +22,16 @@ However, starting with PSP firmware 5.00 and above, if you assigned a JAP Game I
 ### Which games benefit from changing the region sectors?
 Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing).
 
-## History
-The download page on ConsoleCopyWorld dates SetRegion back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of foreign PS1 games to match the region of your own PS1 console so that you could then burn and play them on your real hardware.
-<br/>
-<br/>SetRegion came back into the homebrew scene in 2021 when I discovered that it could be used to inject JAP, PAL, or USA region sectors into <i>any</i> PS1 game, allowing me to discover fixes for several PS1 games that had never worked on PSP or Vita before. I quietly mentioned SetRegion and my brand new fixes on my <a href="https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true">Compatibility List</a>. <a href="https://gbatemp.net/members/the_ho.583322/">The_Ho</a> found this, and used SetRegion to find many more PS1 fixes for PSP and Vita.
-
 ## Finding a game fix yourself
 There's 4 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
 1. **[POPSLoader](https://archive.org/details/popsloader-v-4i) (PSP Only)** - Allows you to boot your game through older builds of the PSP/Vita PS1 emulator (called "POPS"), potentially fixing your game. Try your game in all the builds listed in POPSLoader before trying custom GameIDs or region injection.
 2. **LibCrypt Patch (PAL only)** - Use [PPF-O-Matic](https://www.romhacking.net/utilities/356/) to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms.
 2. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
-4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP. (EBOOTs booted via POPSLoader v4.01 or below do not need this.)
+4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP. (EBOOTs booted via POPSLoader v4.01 or below do not need this, but it doesn't hurt.)
 
 ### Game IDs proven to be helpful:
 
-#### JAP region injection required for USA/PAL:
+#### IDs where JAP region injection is required for USA/PAL games:
  - **SLPS-01222 & SLPS-01223 [Biohazard 2]**: Most fixes were found using these IDs. Can also increase framerate.
  - **SLPS-02190 & SLPS-02191 [Dragon Valor]**
  - **SLPM-86500 & SLPM-86501 [Dragon Quest VII]**
@@ -46,7 +41,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - **SLPS-02180 [Dino Crisis]**
  - The Game ID of the JAP variant of the game
 
-#### No region injection required:
+#### IDs where no region injection is required:
  - **SLES-00972 & SLES-00973 [Resident Evil 2 (PAL)]**
  - **SCUS-94640 [Syphon Filter 3]**
  - The Game ID of the PAL/USA variant of the game
@@ -83,3 +78,9 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
     - To do this, add a dummy/placeholder PS1 disc in the **Disc 2** slot in PSX2PSP while making each EBOOT. (It can just be a blank text file named `0.bin`/`0.img`/`0.iso` that you assign any Game ID, like `SLUS-00000`.) Since the EBOOT is now multi-disc, the Vita will use the **Main Game ID** instead of the **Game ID** when creating the save folder/Virtual Memory Cards/**Save Data Utility** entries.
     <br/>Obviously, make the **Main Game ID** of the EBOOTs different from each other for this hack to work.
     <br/>Also, never accidentally switch to a blank dummy disc in the emulator or it will make your EBOOT unbootable.
+    
+## History
+
+The download page on ConsoleCopyWorld dates SetRegion back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of foreign PS1 games to match the region of your own PS1 console so that you could then burn and play them on your real hardware.
+<br/>
+<br/>SetRegion came back into the homebrew scene in 2021 when I discovered that it could be used to inject JAP, PAL, or USA region sectors into <i>any</i> PS1 game, allowing me to discover fixes for several PS1 games that had never worked on PSP or Vita before. I quietly mentioned SetRegion and my brand new fixes on my <a href="https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true">Compatibility List</a>. <a href="https://gbatemp.net/members/the_ho.583322/">The_Ho</a> found this, and used SetRegion to find many more PS1 fixes for PSP and Vita.
