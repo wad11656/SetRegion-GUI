@@ -28,7 +28,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 2. **LibCrypt Patch (PAL only)** - Use [PPF-O-Matic](https://www.romhacking.net/utilities/356/) to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms.
 2. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
 4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
-   - EBOOTs booted via POPSLoader v4.01 or below do not need this, but if you're actively hunting for a game fix, you should always just region-inject your game anyway so you can test POPSLoader firmwares above 4.01.
+   - EBOOTs booted via POPSLoader v4.01 or below do not need this, but if you're actively hunting for a game fix, you should always just region-inject your game anyway so you can test JAP IDs on POPSLoader firmwares above 4.01.
 
 ### Game IDs proven to be helpful:
 
