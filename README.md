@@ -58,7 +58,8 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - Turn off **Theme Mode** when using PSX2PSP.
  - Your PSP firmware version--and custom firmware version--makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing), make sure to test your game(s) on 6.61 PRO-C2 first.
  - The name of an EBOOT folder must be less than 32 characters long.
- - (Multi-track/`.bin` games only) Even though the Vita emulates a form of PSP FW 6.61, the PS1 emulator is slightly different, particularly the CDDA audio mechanism. Therefore, some in-game audio tracks that make the PSP crash on FW 5.00 - 6.61 do _not_ make Vita-Adrenaline crash.
+ - (Multi-track/`.bin` games only) Even though the Vita emulates a form of PSP FW 6.61, the PS1 emulator is slightly different, particularly the CDDA audio mechanism. Therefore, some in-game audio tracks that make the PSP crash on FW 6.61 (with [CDDA Enabler](https://archive.org/details/cdda_enabler_v2)) do _not_ make Vita-Adrenaline crash.
+   - In such cases, launching the EBOOT on PSP firmwares 4.01 and below avoids the crash.
 
 ## Game ID Tips:
 
