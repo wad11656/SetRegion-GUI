@@ -69,14 +69,14 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 - The ID used in the name of the save folder where your **multi-disc EBOOT** save files are stored (`/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
 - The ID recognized by plugins (e.g., POPSLoader & TempAR).
 
-### Same Game ID Save Conflicts
+### Multiple Games with Same "Game ID" - Save Conflicts
 - If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID `SLPS-01222`), **DO NOT WORRY**--The save files from each game _will **NOT** overwrite each other_, but will simply store to the same Virtual Memory Cards in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
 <br/>_Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2)._
   - However, EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't separately manage the saves for the individual games from there.
   - On PSP, you can open **Memory Card Utility** from within the emulator to manage the saves for the individual games.
   - **Memory Card Utility** doesn't work (for me) on Vita (Adrenaline), so you can't manage the individual saves for the individual games from there. As a workaround, you can force the Vita to create separate **Save Data Utility** entries for each game (while still sharing the same Game ID).
     - To do this, add a dummy/placeholder PS1 disc in the **Disc 2** slot in PSX2PSP while making each EBOOT. (It can just be a blank text file named `0.bin`/`0.img`/`0.iso` that you assign any Game ID, like `SLUS-00000`.) Since the EBOOT is now multi-disc, the Vita will use the **Main Game ID** instead of the **Game ID** when creating the save folder/Virtual Memory Cards/**Save Data Utility** entries.
-    <br/>Obviously, make the **Main Game ID** of each EBOOT different from each other for this hack to work.
+    <br/>Obviously, make the **Main Game ID** of the EBOOTs different from each other for this hack to work.
     <br/>Also, never accidentally switch to a blank dummy disc in the emulator or it will make your EBOOT unbootable.
 
 ## History
