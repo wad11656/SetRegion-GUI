@@ -39,12 +39,12 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - **SLPS-01490 & SLPS-01491 [Brave Fencer Musashiden]**
  - **SLPS-01156 [Momotarou Dentetsu 7]**
  - **SLPS-02180 [Dino Crisis]**
- - The Game ID of the JAP version of the game
+ - The Game ID of the corresponding JAP variant of the game
 
 #### No region injection required:
  - **SLES-00972 & SLES-00973 [Resident Evil 2 (PAL)]**
  - **SCUS-94640 [Syphon Filter 3]**
- - The Game ID of the PAL/USA version of the game
+ - The Game ID of the corresponding PAL/USA variant of the game
 
 *This list is likely incomplete.
 
