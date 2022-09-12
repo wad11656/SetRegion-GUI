@@ -71,10 +71,10 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 - The ID used in the name of the save folder where your **multi-disc EBOOT** save files/Virtual Memory Cards are stored (`/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
 - The ID recognized by plugins (e.g., POPSLoader & TempAR).
 
-### Multiple Games with Same "Game ID" - Save Conflicts
+### Duplicate "Game ID" Save Conflicts
+- Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2).
 - If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID `SLPS-01222`), **DO NOT WORRY**--The save files from each game _will **NOT** overwrite each other_, but will simply store to the same Virtual Memory Cards in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
 - EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't separately manage the saves for the individual games from there.
-- Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2).
 - On PSP, you can open **Memory Card Utility** from within the emulator to manage the saves for the individual games.
 - **Memory Card Utility** doesn't work (for me) on Vita-Adrenaline, so you can't manage the individual saves for the individual games from there. As a workaround, you can force the Vita to create separate save folders/**Save Data Utility** entries for each game (while still sharing the same Game ID).
   - To do this, add a dummy/placeholder PS1 disc in the **Disc 2** slot in PSX2PSP while making each EBOOT. (It can just be a blank text file named `0.bin`/`0.img`/`0.iso` that you assign any Game ID, like `SLUS-00000`.) Since the EBOOT is now multi-disc, the Vita will use the **Main Game ID** instead of the **Game ID** when creating the save folder/Virtual Memory Cards/**Save Data Utility** entries.
