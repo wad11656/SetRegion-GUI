@@ -54,7 +54,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - Check online for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
  - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool or PSX2PSP.
  - Always use a **Compression** setting above **0** (I prefer **9**) in PSX2PSP when creating an EBOOT.
-   - **Compression 0** only occasionally works in low PSP firmwares. Just avoid it.
+   - **Compression 0** only occasionally works on low PSP firmwares. It's probably best to just avoid it.
  - Turn off **Theme Mode** when using PSX2PSP.
  - Your PSP firmware version--and custom firmware version--makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing), make sure to test your game(s) on 6.61 PRO-C2 first.
  - The name of an EBOOT folder must be less than 32 characters long.
