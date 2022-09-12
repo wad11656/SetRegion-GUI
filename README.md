@@ -12,7 +12,7 @@ This is a GUI version of the original <a href="https://www.consolecopyworld.com/
 Converts the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA without modifying the game's display resolution.
 
 ### Why?
-Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita (Adrenaline) PS1 emulators.
+Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita-Adrenaline PS1 emulators.
 
 ### How does changing the region sectors help?
 In the mid-2000s, the PSP homebrew scene discovered that assigning custom Game IDs to PS1 discs when creating an EBOOT (as opposed to using <a href="https://user-images.githubusercontent.com/16929664/189551050-48756bcd-da1f-4743-b8d4-7c8d4be223f4.png">their native IDs</a>) can increase compatibility on the PSP PS1 emulator. (This behavior carried over to the Vita too.)
@@ -58,6 +58,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - Turn off **Theme Mode** when using PSX2PSP.
  - Your PSP firmware version--and custom firmware version--makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing), make sure to test your game(s) on 6.61 PRO-C2 first.
  - The name of an EBOOT folder must be less than 32 characters long.
+ - Even though the Vita emulates a form of PSP FW 6.61, the PS1 emulator is slightly different, particularly the CDDA audio mechanism. Therefore, some in-game audio tracks that make the PSP crash on FW 6.61 do _not_ make Vita-Adrenaline crash.
 
 ## Game ID Tips:
 
@@ -75,7 +76,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 <br/>_Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2)._
   - However, EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't separately manage the saves for the individual games from there.
   - On PSP, you can open **Memory Card Utility** from within the emulator to manage the saves for the individual games.
-  - **Memory Card Utility** doesn't work (for me) on Vita (Adrenaline), so you can't manage the individual saves for the individual games from there. As a workaround, you can force the Vita to create separate save folders/**Save Data Utility** entries for each game (while still sharing the same Game ID).
+  - **Memory Card Utility** doesn't work (for me) on Vita-Adrenaline, so you can't manage the individual saves for the individual games from there. As a workaround, you can force the Vita to create separate save folders/**Save Data Utility** entries for each game (while still sharing the same Game ID).
     - To do this, add a dummy/placeholder PS1 disc in the **Disc 2** slot in PSX2PSP while making each EBOOT. (It can just be a blank text file named `0.bin`/`0.img`/`0.iso` that you assign any Game ID, like `SLUS-00000`.) Since the EBOOT is now multi-disc, the Vita will use the **Main Game ID** instead of the **Game ID** when creating the save folder/Virtual Memory Cards/**Save Data Utility** entries.
     <br/>Obviously, make the **Main Game ID** of each of the EBOOTs different from each other for this hack to work.
     <br/>Also, never accidentally switch to a blank dummy disc in the emulator or it will make your EBOOT unbootable.
