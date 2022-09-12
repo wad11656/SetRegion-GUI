@@ -31,7 +31,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 
 ### Game IDs proven to be helpful:
 
-#### JAP region injection required (USA/PAL):
+#### JAP region injection required for USA/PAL:
  - **SLPS-01222 & SLPS-01223 [Biohazard 2]**: Most fixes were found using these IDs. Can also increase framerate.
  - **SLPS-02190 & SLPS-02191 [Dragon Valor]**
  - **SLPM-86500 & SLPM-86501 [Dragon Quest VII]**
