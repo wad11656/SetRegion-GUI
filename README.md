@@ -56,6 +56,25 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
    - **Compression 0** only occasionally works in low PSP firmwares.
  - Turn off **Theme Mode** when using PSX2PSP.
  - Your PSP firmware version--and custom firmware version--makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing), make sure to test your game(s) on 6.61 PRO-C2 first.
+ - The name of an EBOOT folder must be less than 32 characters long.
+
+## Game ID Tips:
+
+### Game ID
+- Affects game compatibility.
+- The ID used in the name of the save folder where your **single-disc EBOOT** save files are stored (`/PSP/SAVEDATA/<GAME_ID>/`).
+
+### Main Game ID
+- Doesn't affect game compatibility.
+- The ID used in the name of the save folder where your **multi-disc EBOOT** PS1 save files are stored (`/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
+- The ID recognized by plugins (e.g., POPSLoader & TempAR).
+
+### Same Game ID Conflicts
+- If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID **SLPS-01222**), **DO NOT WORRY**--The save files from each game _will **NOT** overwrite each other_, but will simply store to the same Virtual Memory Cards in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
+<br/>Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2).
+  - EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't manage the saves from the individual games from there.
+  - On PSP, you can open **Memory Card Utility** in the emulator settings to manage the saves for the different games.
+  - **Memory Card Utility** doesn't work (for me) on Vita (Adrenaline), so you can't manage the individual saves for the different games. As a workaround, you can force the Vita to create separate **Save Data Utility** entries/Virtual Memory Cards for each game (while still sharing the same Game ID). To do this, add a dummy/placeholder PS1 disc in PSX2PSP while making each EBOOT. Since the EBOOT is now multi-disc, the Vita will use the **Main Game ID** instead of the **Game ID** when creating the save folder/Virtual Memory Cards. (Obviously, make the **Main Game ID** of each EBOOT different from each other.)
 
 ## History
 The download page on ConsoleCopyWorld dates SetRegion back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of foreign PS1 games to match the region of your own PS1 console so that you could then burn and play them on your real hardware.
