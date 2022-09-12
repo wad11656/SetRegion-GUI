@@ -23,7 +23,7 @@ However, starting with PSP firmware 5.00 and above, if you assigned a JAP Game I
 Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing).
 
 ## Finding a game fix yourself
-There's 3 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
+There's 4 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
 1. **[POPSLoader](https://archive.org/details/popsloader-v-4i) (PSP Only)** - Allows you to boot your game through older builds of the PSP/Vita PS1 emulator (called "POPS"). Try your game in all the builds listed in POPSLoader before trying custom GameIDs or region injection.
 2. **LibCrypt Patch (PAL only)** - Use PPF-O-Matic to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms.
 2. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
