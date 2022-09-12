@@ -46,6 +46,8 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - **SCUS-94640 [Syphon Filter 3]**
  - The Game ID of the PAL/USA version of the game
 
+*This list is likely incomplete.
+
 ## EBOOT Tips:
 
  - Check online for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
