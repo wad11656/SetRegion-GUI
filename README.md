@@ -17,7 +17,7 @@ Primarily used today to fix/increase certain PS1 games' compatibility on the PSP
 ### How does changing the region sectors help?
 In the mid-2000s, the PSP homebrew scene discovered that assigning custom Game IDs to PS1 discs when creating an EBOOT (as opposed to using <a href="https://user-images.githubusercontent.com/16929664/189551050-48756bcd-da1f-4743-b8d4-7c8d4be223f4.png">their native IDs</a>) can increase compatibility on the PSP PS1 emulator. (This behavior carried over to the Vita too.)
 
-However, starting with PSP firmware 5.00 and above, if you assigned a JAP Game ID to a USA or PAL game, the resulting EBOOT would become unbootable. Injecting JAP region sectors into the disc image(s) with SetRegion fixes this issue, allowing custom JAP Game IDs to be used on USA and PAL games on PSP FW 5.00+ too. Since Vita emulates a form of PSP firmware 6.61, this discovery unleashed a Pandora's Box of new game fixes for both PSP & Vita.
+However, starting with PSP firmware 5.00 and above, if you assigned a JAP Game ID to a USA or PAL game, the resulting EBOOT would become unbootable. Injecting JAP region sectors into the disc image(s) with SetRegion fixes this issue, allowing custom JAP Game IDs to be used on USA/PAL games on PSP FW 5.00+ too. Since Vita emulates a form of PSP firmware 6.61, this discovery unleashed a Pandora's Box of new game fixes for both PSP & Vita.
 
 ### Which games benefit from changing the region sectors?
 Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing).
