@@ -12,7 +12,7 @@ SelectedRegion := ""
 ResultMessage := ""
 
 Gui, Main: New
-Gui, Main: Add, Picture, x38 y10, %A_ScriptDir%\assets\SetRegionBanner.png
+Gui, Main: Add, Picture, w428 h-1 x38 y10, %A_ScriptDir%\assets\SetRegionBanner.png
 Gui, Main: Add, Edit, x10 w400 hwndFilePath,
 SetEditCueBanner(FilePath, "Drag & Drop .bin or Select File...")
 Gui, Main: Add, Button, yp x+5 gSelectFile, Select File...
