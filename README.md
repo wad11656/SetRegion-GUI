@@ -20,7 +20,7 @@ In the mid-2000s, the PSP homebrew scene discovered that assigning custom Game I
 However, starting with PSP firmware 5.00, if you assigned a JAP Game ID to a USA or PAL game, the resulting EBOOT would become unbootable. Injecting JAP region sectors into the disc image(s) with SetRegion fixes this issue, allowing custom JAP Game IDs to be used on USA/PAL games on PSP FW 5.00 and above. Since Vita-Adrenaline emulates a form of PSP firmware 6.61, this discovery allows JAP Game IDs to be used (and thus new game fixes to be found) on both PSP FW 5.00+ & Vita.
 
 ### Which games benefit from changing the region sectors?
-Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing) and [The_Ho](https://gbatemp.net/members/the_ho.583322/)'s [thread where new game fixes are discussed is here](https://gbatemp.net/threads/new-mode-to-fix-ps1-games-for-psp-and-psvita.607286/).
+Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/1ZE8d4WIw7USP_cYdEWUke5F59OFGQHgB5jGiQvfY8gA/edit?usp=sharing) and [The_Ho](https://gbatemp.net/members/the_ho.583322/)'s [thread where new game fixes are discussed is here](https://gbatemp.net/threads/new-mode-to-fix-ps1-games-for-psp-and-psvita.607286/). (I am planning on making a website compiling all Vita/PSP compatibility and fixes from myself and The_Ho.)
 
 ## Finding a game fix yourself
 There's 4 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
