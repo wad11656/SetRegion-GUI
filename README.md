@@ -25,9 +25,10 @@ Most of the games that benefit are already published for download online in EBOO
 ## Finding a game fix yourself
 There's 4 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
 1. **[POPSLoader](https://archive.org/details/popsloader-v-4i) (PSP Only)** - Allows you to boot your game through older builds of the PSP PS1 emulator (called "POPS"), potentially fixing your game. Try your game in all the builds listed in POPSLoader before trying custom GameIDs or region injection.
-2. **LibCrypt Patch (PAL only)** - Use [PPF-O-Matic](https://www.romhacking.net/utilities/356/) to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms. (Unlike modern emulators, the PSP/Vita PS1 emulator does _not_ automatically patch out LibCrypt protection.)
-2. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
-4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
+2. **LibCrypt Patch (PAL only)** - Use [PPF-O-Matic](https://www.romhacking.net/utilities/356/) to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms.
+   -  Unlike modern PS1 emulators, the PSP/Vita does _not_ automatically patch out LibCrypt protection.
+4. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
+5. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
    - USA/PAL EBOOTs with JAP Game IDs that are booted via POPSLoader v4.01 or below do not need region injection, but if you're actively hunting for a game fix, you should always just region-inject your game anyway so you can test JAP Game IDs on POPSLoader firmwares above 4.01 too.
 
 ### Game IDs proven to be helpful:
