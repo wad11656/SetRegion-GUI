@@ -49,6 +49,8 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - The Game ID of the PAL/USA variant of the game
 
 *This list is incomplete.
+
+#### Game ID Tips:
 - Try Game IDs on different POPSLoader versions, too.
 - If none of these Game IDs help, try Game IDs not listed here.
   - JAP Game IDs seem most useful.
