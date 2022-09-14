@@ -51,7 +51,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
 
 ## EBOOT Tips:
 
- - Check online for an EBOOT download of your game first. The region-sector-injected, GameID-fixed EBOOT is probably already there.
+ - Check online for an EBOOT download of your game first. The working EBOOT (with region sectors injected and/or modified Game ID, if necessary,) is probably already there.
  - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool or PSX2PSP.
  - Always use a **Compression** setting above **0** (I prefer **9**) in PSX2PSP when creating an EBOOT.
    - **Compression 0** only occasionally works on low PSP firmwares. It's probably best to just avoid it.
