@@ -68,7 +68,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
    - Try PSP firmwares 4.01 and below via POPSLoader to bypass crashes caused by the CDDA Enabler plugin.
 
 ## Game ID Tips:
-[This is where the Main Game ID & Game ID come from.](https://user-images.githubusercontent.com/16929664/189551050-48756bcd-da1f-4743-b8d4-7c8d4be223f4.png)
+[This is where a PS1 game's Game ID & Main Game ID come from.](https://user-images.githubusercontent.com/16929664/189551050-48756bcd-da1f-4743-b8d4-7c8d4be223f4.png)
 
 ### EBOOT "Game ID"
 - Affects game compatibility.
