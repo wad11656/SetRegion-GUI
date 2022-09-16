@@ -31,7 +31,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
    - USA/PAL EBOOTs with JAP Game IDs that are booted via POPSLoader v4.01 or below do not need region injection, but if you're actively hunting for a game fix, you should always just region-inject your game anyway so you can test JAP Game IDs on POPSLoader firmwares above 4.01 too.
 5. **Disc Image Hacking** - When custom Game IDs and Region Injection fails, hacking the disc image may be the only possible fix.
-   - For example, The_Ho created a new fix for _Jackie Chan Stuntmaster_ by editing out the FVMs on the disc with a hex editor, and I found one for _Worms_ by exporting the FMV files in CDMage, overwriting the hex values of all the FMVs with `0`s using a hex editor, then importing back into CDMage. (FMV playback seems to be a relatively common pitfall for the emulator.)
+   - For example, The_Ho created a new fix for _Jackie Chan Stuntmaster_ by editing out the FVMs on the disc with a hex editor, and I found one for _Worms_ by overwriting the hex values of all the FMVs with `0`s. (FMV playback seems to be a relatively common pitfall for the emulator.)
 
 ### Game IDs proven to be helpful:
 
