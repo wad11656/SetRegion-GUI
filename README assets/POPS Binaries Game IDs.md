@@ -3,7 +3,7 @@
 
 <img src="https://user-images.githubusercontent.com/16929664/190537223-5b87cfb8-7a1c-4b8b-9589-911616a7a386.png" width=480)/>
 
-It's theorized that at least some (if not all) of the Game IDs found in the hex are patched in some way in POPS. Therefore, it might be worth trying these Game IDs in PSX2PSP when searching for a fix for your game. If you're on PSP, don't forget to combine the Game IDs with different POPS versions via POPSLoader (if they don't work on FW 6.60/6.61); game IDs behave differently on different POPS versions.
+It's theorized that at least some (if not all) of the Game IDs found in the hex are patched in some way in POPS. Therefore, it might be worth trying these Game IDs in PSX2PSP when searching for a fix for your game. If you're on PSP, don't forget to combine the Game IDs with different POPS versions via POPSLoader (if the game isn't fixed on FW 6.60/6.61); game IDs behave differently on different POPS versions.
 
 ### Combined From all Versions
 | SCPS | SCUS | SLPM | SLPS | SLUS |
