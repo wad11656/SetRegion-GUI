@@ -82,7 +82,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 - The ID recognized by plugins (e.g., POPSLoader & TempAR).
 
 ### Duplicate "Game ID" Save Conflicts
-- Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2).
+- As indicated above, each (Main) Game ID gets its own save folder. And each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<ID>/SCEVMC1.VMP` (Slot 2).
 - If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID `SLPS-01222`), **DO NOT WORRY**--The save files from each game _will **NOT** overwrite each other_, but will simply store to the same Virtual Memory Cards in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
 - EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't separately manage the saves for the individual games from there.
 - On PSP, you can open **Memory Card Utility** from within the emulator to manage the saves for the individual games.
