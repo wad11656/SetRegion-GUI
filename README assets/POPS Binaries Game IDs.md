@@ -8,43 +8,89 @@ It's theorized that at least some (if not all) of the Game IDs found in the hex 
 ### Combined From all Versions
 | SCPS | SCUS | SLPM | SLPS | SLUS |
 | ------------- | ------------- | ------------- | ------------- | ------------- |
-| SCPS-10007  | SCUS-94103  | SLPM-86007 | SLPS-00001 | SLUS-00543 |
-| SCPS-10008  | SCUS-94167  | SLPM-86028 | SLPS-00015 | SLUS-01382 |
-| SCPS-10011  | SCUS-94200  | SLPM-86052 | SLPS-00017 |  |
-| SCPS-10012  | SCUS-94263  | SLPM-86062 | SLPS-00025 |  |
-| SCPS-10021  | SCUS-94301  | SLPM-86077 | SLPS-00028 |  |
-| SCPS-10026  | SCUS-94302  | SLPM-86123 | SLPS-00035 |  |
-| SCPS-10028  | SCUS-94304  | SLPM-86142 | SLPS-00040 |  |
-| SCPS-10029  | SCUS-94305  | SLPM-86192 | SLPS-00097 |  |
-| SCPS-10036  | SCUS-94308  | SLPM-86581 | SLPS-00150 |  |
-| SCPS-10051  | SCUS-94309  | SLPM-86637 | SLPS-00152 |  |
-| SCPS-10063  | SCUS-94351  | SLPM-86774 | SLPS-00270 |  |
-| SCPS-10071  | SCUS-94356  | SLPM-86916 | SLPS-00300 |  |
-| SCPS-10074  | SCUS-94426  |  | SLPS-00330 |  |
-| SCPS-10087  | SCUS-94454  |  | SLPS-00400 |  |
-| SCPS-10093  | SCUS-94455  |  | SLPS-00555 |  |
-| SCPS-10096  | SCUS-94476  |  | SLPS-00689 |  |
-| SCPS-10103  | SCUS-94555  |  | SLPS-00875 |  |
-| SCPS-10116  | SCUS-94608  |  | SLPS-00998 |  |
-| SCPS-10118  | SCUS-94640  |  | SLPS-01010 |  |
-| SCPS-10130  | SCUS-94900  |  | SLPS-01056 |  |
-|   |   |  | SLPS-01156 |  |
-|   |   |  | SLPS-01222 |  |
-|   |   |  | SLPS-01236 |  |
-|   |   |  | SLPS-01237 |  |
-|   |   |  | SLPS-01490 |  |
-|   |   |  | SLPS-01611 |  |
-|   |   |  | SLPS-01724 |  |
-|   |   |  | SLPS-01749 |  |
-|   |   |  | SLPS-01932 |  |
-|   |   |  | SLPS-02180 |  |
-|   |   |  | SLPS-02334 |  |
-|   |   |  | SLPS-02420 |  |
-|   |   |  | SLPS-02600 |  |
-|   |   |  | SLPS-02693 |  |
-|   |   |  | SLPS-02728 |  |
-|   |   |  | SLPS-02754 |  |
-|   |   |  | SLPS-02982 |  |
-|   |   |  | SLPS-03562 |  |
-|   |   |  | SLPS-91019 |  |
+| SCPS-10007 | SCUS-94103 | SLPM-86007 | SLPS-00001 | SLUS-00543 |
+| SCPS-10008 | SCUS-94167 | SLPM-86028 | SLPS-00015 | SLUS-01382 |
+| SCPS-10011 | SCUS-94200 | SLPM-86052 | SLPS-00017 |  |
+| SCPS-10012 | SCUS-94263 | SLPM-86062 | SLPS-00025 |  |
+| SCPS-10021 | SCUS-94301 | SLPM-86077 | SLPS-00028 |  |
+| SCPS-10026 | SCUS-94302 | SLPM-86123 | SLPS-00035 |  |
+| SCPS-10028 | SCUS-94304 | SLPM-86142 | SLPS-00040 |  |
+| SCPS-10029 | SCUS-94305 | SLPM-86192 | SLPS-00097 |  |
+| SCPS-10036 | SCUS-94308 | SLPM-86581 | SLPS-00150 |  |
+| SCPS-10051 | SCUS-94309 | SLPM-86637 | SLPS-00152 |  |
+| SCPS-10063 | SCUS-94351 | SLPM-86774 | SLPS-00270 |  |
+| SCPS-10071 | SCUS-94356 | SLPM-86916 | SLPS-00300 |  |
+| SCPS-10074 | SCUS-94426 |  | SLPS-00330 |  |
+| SCPS-10087 | SCUS-94454 |  | SLPS-00400 |  |
+| SCPS-10093 | SCUS-94455 |  | SLPS-00555 |  |
+| SCPS-10096 | SCUS-94476 |  | SLPS-00689 |  |
+| SCPS-10103 | SCUS-94555 |  | SLPS-00875 |  |
+| SCPS-10116 | SCUS-94608 |  | SLPS-00998 |  |
+| SCPS-10118 | SCUS-94640 |  | SLPS-01010 |  |
+| SCPS-10130 | SCUS-94900 |  | SLPS-01056 |  |
+|  |  |  | SLPS-01156 |  |
+|  |  |  | SLPS-01222 |  |
+|  |  |  | SLPS-01236 |  |
+|  |  |  | SLPS-01237 |  |
+|  |  |  | SLPS-01490 |  |
+|  |  |  | SLPS-01611 |  |
+|  |  |  | SLPS-01724 |  |
+|  |  |  | SLPS-01749 |  |
+|  |  |  | SLPS-01932 |  |
+|  |  |  | SLPS-02180 |  |
+|  |  |  | SLPS-02334 |  |
+|  |  |  | SLPS-02420 |  |
+|  |  |  | SLPS-02600 |  |
+|  |  |  | SLPS-02693 |  |
+|  |  |  | SLPS-02728 |  |
+|  |  |  | SLPS-02754 |  |
+|  |  |  | SLPS-02982 |  |
+|  |  |  | SLPS-03562 |  |
+|  |  |  | SLPS-91019 |  |
 
+---
+
+### v3.02
+| SCPS | SCUS | SLPM | SLPS | SLUS |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| SCPS-10007 | SCUS-94103 | SLPM-86028 | SLPS-00001 | SLUS-01382 |
+| SCPS-10008 | SCUS-94302 | SLPM-86052 | SLPS-00015 |  |
+| SCPS-10036 | SCUS-94304 | SLPM-86062 | SLPS-00017 |  |
+| SCPS-10071 | SCUS-94305 | SLPM-86123 | SLPS-00035 |  |
+| SCPS-10074 | SCUS-94308 | SLPM-86142 | SLPS-00040 |  |
+| SCPS-10087 | SCUS-94356 | SLPM-86192 | SLPS-00150 |  |
+| SCPS-10093 | SCUS-94454 | SLPM-86581 | SLPS-00270 |  |
+| SCPS-10116 |  | SLPM-86774 | SLPS-00300 |  |
+|  |  | SLPM-86916 | SLPS-00400 |  |
+|  |  |  | SLPS-00555 |  |
+|  |  |  | SLPS-00998 |  |
+|  |  |  | SLPS-01010 |  |
+|  |  |  | SLPS-01156 |  |
+|  |  |  | SLPS-01490 |  |
+|  |  |  | SLPS-01611 |  |
+|  |  |  | SLPS-01724 |  |
+|  |  |  | SLPS-02180 |  |
+|  |  |  | SLPS-02600 |  |
+|  |  |  | SLPS-02728 |  |
+|  |  |  | SLPS-02754 |  |
+
+### v3.03
+| SCPS | SCUS | SLPM | SLPS | SLUS |
+| ------------- | ------------- | ------------- | ------------- | ------------- |
+| SCPS-10007 | SCUS-94103 | SLPM-86007 | SLPS-00015 |  |
+| SCPS-10021 | SCUS-94167 | SLPM-86028 | SLPS-00017 |  |
+| SCPS-10029 | SCUS-94301 | SLPM-86052 | SLPS-00035 |  |
+| SCPS-10036 | SCUS-94309 | SLPM-86062 | SLPS-00040 |  |
+| SCPS-10051 | SCUS-94356 | SLPM-86077 | SLPS-00150 |  |
+| SCPS-10071 | SCUS-94555 | SLPM-86123 | SLPS-00270 |  |
+| SCPS-10074 | SCUS-94640 | SLPM-86192 | SLPS-00400 |  |
+| SCPS-10087 |  | SLPM-86581 | SLPS-00555 |  |
+| SCPS-10093 |  | SLPM-86774 | SLPS-00875 |  |
+| SCPS-10116 |  | SLPM-86916 | SLPS-01010 |  |
+|  |  |  | SLPS-01156 |  |
+|  |  |  | SLPS-01236 |  |
+|  |  |  | SLPS-01490 |  |
+|  |  |  | SLPS-01611 |  |
+|  |  |  | SLPS-01724 |  |
+|  |  |  | SLPS-02180 |  |
+|  |  |  | SLPS-02728 |  |
