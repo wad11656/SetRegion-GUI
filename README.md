@@ -15,7 +15,7 @@ Converts the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA with
 Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita-Adrenaline PS1 emulators.
 
 ### How does changing the region sectors help?
-In the mid-2000s, the PSP homebrew scene discovered that assigning custom Game IDs to PS1 discs when creating an EBOOT (as opposed to using <a href="https://user-images.githubusercontent.com/16929664/189551050-48756bcd-da1f-4743-b8d4-7c8d4be223f4.png">their native IDs</a>) can increase compatibility on the PSP PS1 emulator. (This behavior carried over to the Vita too.)
+In the mid-2000s, the PSP homebrew scene discovered that assigning custom Game IDs to PS1 discs when creating an EBOOT (as opposed to using <a href="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/README%20assets/Game%20ID%20Example.png">their native IDs</a>) can increase compatibility on the PSP PS1 emulator. (This behavior carried over to the Vita too.)
 
 However, starting with PSP firmware 5.00, if you assigned a JAP Game ID to a USA or PAL game, the resulting EBOOT would become unbootable. Injecting JAP region sectors into the disc image(s) with SetRegion fixes this issue, allowing custom JAP Game IDs to be used on USA/PAL games on PSP FW 5.00 and above. Since Vita-Adrenaline emulates a form of PSP firmware 6.61, this discovery allows JAP Game IDs to be used (and thus new game fixes to be found) on both PSP FW 5.00+ & Vita.
 
@@ -68,7 +68,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
    - Try PSP firmwares 4.01 and below via POPSLoader to bypass crashes caused by the CDDA Enabler plugin.
 
 ## Game ID Tips:
-[This is where a PS1 game's Game ID & Main Game ID come from.](https://user-images.githubusercontent.com/16929664/189551050-48756bcd-da1f-4743-b8d4-7c8d4be223f4.png)
+[This is where a PS1 game's Game ID & Main Game ID come from.](https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/README%20assets/Game%20ID%20Example.png)
 
 ### EBOOT "Game ID"
 - Affects game compatibility.
