@@ -50,7 +50,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
  - **SCUS-94640 [Syphon Filter 3]**
  - The Game ID of the PAL/USA variant of the game
 
-*This list is incomplete. You can also try the [POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).
+*This list is incomplete. [You can also try the POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).
 
 #### Game ID Tips:
 - Try Game IDs on different POPSLoader versions, too.
