@@ -23,13 +23,15 @@ However, starting with PSP firmware 5.00, if you assigned a JAP Game ID to a USA
 Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true) and [The_Ho](https://gbatemp.net/members/the_ho.583322/)'s [thread where new game fixes are discussed is here](https://gbatemp.net/threads/new-mode-to-fix-ps1-games-for-psp-and-psvita.607286/). (I am planning on making a website compiling all Vita/PSP compatibility fixes from myself and The_Ho.)
 
 ## Finding a game fix yourself
-There's 4 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
+There's 5 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
 1. **[POPSLoader](https://archive.org/details/popsloader-v-4i) (PSP Only)** - Allows you to boot your game through older builds of the PSP PS1 emulator (called "POPS"), potentially fixing your game. Try your game in all the builds listed in POPSLoader before trying custom GameIDs or region injection.
 2. **LibCrypt Patch (PAL only)** - Use [PPF-O-Matic](https://www.romhacking.net/utilities/356/) to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms.
    -  Unlike modern PS1 emulators, the PSP/Vita does _not_ automatically patch out LibCrypt protection.
-4. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
-5. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
+3. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
+4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
    - USA/PAL EBOOTs with JAP Game IDs that are booted via POPSLoader v4.01 or below do not need region injection, but if you're actively hunting for a game fix, you should always just region-inject your game anyway so you can test JAP Game IDs on POPSLoader firmwares above 4.01 too.
+5. **Disc Image Hacking** - When custom Game IDs and Region Injection fails, hacking the disc image may be the only possible fix.
+   - For example, The_Ho created a new fix for _Jackie Chan Stuntmaster_ by editing the Hex of the disc, and I found one for _Worms_ by overwriting the hex values of all the FMVs with `0`'s. (FMV playback seems to be a major potential pitfall for the emulator.)
 
 ### Game IDs proven to be helpful:
 
@@ -48,7 +50,7 @@ There's 4 methods that you can mix & match with each other to find a fix for a P
  - **SCUS-94640 [Syphon Filter 3]**
  - The Game ID of the PAL/USA variant of the game
 
-*This list is incomplete.
+*This list is incomplete. You can also try the [POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).
 
 #### Game ID Tips:
 - Try Game IDs on different POPSLoader versions, too.
