@@ -1,6 +1,6 @@
 # SetRegion GUI
 
-<p align="center"><img src="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/ScreenShot.png" width="500"/></p>
+<p align="center"><img src="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/README%20assets/ScreenShot.png" width="500"/></p>
 
 ### *Download is on the [Releases](https://github.com/wad11656/SetRegion-GUI/releases) Page.*
 
