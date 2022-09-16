@@ -1,5 +1,5 @@
 ## POPS Binaries Game IDs
-"POPS" is the name of the PS1 emulator on PSP & Vita. At times, a new version of POPS was released alongside a PSP firmware update. (These releases correspond with the PSP firmware versions you see listed in the POPSLoader plugin.) When the POPS binaries (called `pops.prx`) were decrypted and opened in a hex editor, the PSP homebrew scene discovered various Game IDs buried within the hex, one of which being the ever-so-helpful `SLPS-01222`.
+"POPS" is the name of the PS1 emulator on PSP & Vita. At times, a new version of POPS was released alongside a PSP firmware update. (These releases correspond with the PSP firmware versions you see listed in the [POPSLoader](https://archive.org/details/popsloader-v-4i) plugin.) When the POPS binaries (called `pops.prx`) were decrypted and opened in a hex editor, the PSP homebrew scene discovered various Game IDs buried within the hex, one of which being the ever-so-helpful `SLPS-01222`.
 
 <img src="https://user-images.githubusercontent.com/16929664/190537223-5b87cfb8-7a1c-4b8b-9589-911616a7a386.png" width=480)/>
 
