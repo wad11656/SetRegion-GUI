@@ -66,7 +66,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
  - Turn off **Theme Mode** when using PSX2PSP.
  - Your PSP firmware version--and custom firmware version--makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true), make sure to test your game(s) on 6.61 PRO-C2 first.
  - The name of an EBOOT folder must be less than 32 characters long.
- - (Multi-track/`.bin` games only) On firmwares 5.00 and above on PSP, one must use the [CDDA Enabler](https://archive.org/details/cdda_enabler_v2) plugin to enable CDDA audio. This plugin is not perfect and sometimes causes games to crash when playing certain audio tracks. However, since the Vita's PS1 emulator uses a different method of enabling CDDA audio, the same audio tracks often do _not_ make Vita-Adrenaline crash.
+ - (Multi-track/`.bin` games only) On firmwares 5.00 and above on PSP, one must use the [CDDA Enabler](https://archive.org/details/cdda_enabler_v2) plugin to enable CDDA audio. This plugin is not perfect and sometimes causes games to crash when playing certain audio tracks. However, since the Vita's PS1 emulator uses a different method of enabling CDDA audio, the same audio tracks that make the PSP crash often do _not_ make Vita-Adrenaline crash. (Viva la Vita)
    - Try PSP firmwares 4.01 and below via POPSLoader to bypass crashes caused by the CDDA Enabler plugin.
 
 ## Game ID Tips:
