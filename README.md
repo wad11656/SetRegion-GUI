@@ -55,7 +55,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 #### Game ID Tips:
 - Try Game IDs on different POPSLoader versions, too.
 - If none of these Game IDs help, try Game IDs not listed here.
-  - JAP Game IDs seem most useful.
+  - [JAP Game IDs](https://psxdatacenter.com/ntsc-j_list.html) seem most helpful.
 
 ## EBOOT Tips:
 
