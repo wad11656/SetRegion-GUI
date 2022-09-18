@@ -83,7 +83,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 
 ### Duplicate "Game ID" Save Conflicts
 - As indicated above, each (Main) Game ID gets its own save folder. Each save folder stores 2 Virtual Memory Cards, stored at `/PSP/SAVEDATA/<(MAIN)_GAME_ID>/SCEVMC0.VMP` (Slot 1) and `/PSP/SAVEDATA/<(MAIN)_GAME_ID>/SCEVMC1.VMP` (Slot 2).
-- If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID `SLPS-01222`), **DO NOT WORRY**—The save files from each game _will **NOT** overwrite each other_, but will simply store to the same Virtual Memory Cards in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
+- If you create multiple EBOOTs that share the same save folder (e.g., 2 single-disc EBOOTs with Game ID `SLPS-01222`), **DO NOT WORRY**—The save files from both games _will **NOT** overwrite each other_, but will simply both save to the same Virtual Memory Card(s) in the same save folder (e.g., `/PSP/SAVEDATA/SLPS-01222/`).
 - EBOOTs that share the same save folder/Virtual Memory Cards will appear as a single entry in the XMB **Save Data Utility**, so you can't separately manage the saves for the individual games from there.
 - On PSP, you can open **Memory Card Utility** from within the emulator to manage the saves for the individual games.
 - **Memory Card Utility** doesn't work (for me) on Vita-Adrenaline, so you can't manage the saves for the individual games from there. As a workaround, you can force the Vita to create separate **Save Data Utility** entries for each game (while still both using the same **Game ID**).
