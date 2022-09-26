@@ -5,7 +5,7 @@
 
 It's theorized that at least some (if not all) of the Game IDs found in the hex correspond to some sort of game-fixing emulator patch in POPS. Therefore, it might be worth trying these Game IDs in PSX2PSP when searching for a fix for your game. If you're on PSP and a custom Game ID doesn't fix your game on FW 6.60/6.61, also try booting the EBOOT in different POPS versions via POPSLoader before you try a different Game ID; Game IDs behave differently in different POPS versions.
 
-_*Note that the list of Game IDs below is_ **not** _a comprehensive list of all possible Game IDs that can improve PS1 EBOOT compatibility on PSP/Vita, because Game IDs outside of this list that successfully fixed games have already been found._ 
+_*Note that the list of Game IDs below is_ **not** _a comprehensive list of all possible Game IDs that can improve PS1 EBOOT compatibility on PSP/Vita, as Game IDs outside of this list that successfully fixed games have already been found._ 
 
 ### Combined From all Versions
 | SCPS | SCUS | SLPM | SLPS | SLUS |
