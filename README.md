@@ -93,7 +93,7 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
     
 ## History
 
-<a href="https://www.consolecopyworld.com/psx/psx_utils_pn_cnv.shtml#SetRegion">The download page on ConsoleCopyWorld</a> dates SetRegion back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of foreign PS1 games to match the region of your own PS1 console so that you could burn and play them.
+<a href="https://www.consolecopyworld.com/psx/psx_utils_pn_cnv.shtml#SetRegion">The download page on ConsoleCopyWorld</a> dates SetRegion back to June 27, 2001. According to its brief description on that site, its original usage was to change the region sectors of foreign PS1 games to match the region of your own PS1 console so that you could burn and play out-of-region games.
 
 The original discovery of injecting region sectors to increase PS1 compatibility on PSP/Vita might be credited to the Brazilians: I only was inspired to find a tool like SetRegion in the first place because I noticed that a Portuguese fan-translation EBOOT of Valkyrie Profile (PS1)—which was translated from the USA version of the game—was booting on my PSP using the Japanese BIOS, with the Japanese Game ID `SLPS-01222`. As a result, the game avoided a crash that usually plagues the USA version of the game on PSP/Vita. I tried re-creating their fix simply by building a USA Valkyrie Profile EBOOT with the Game ID `SLPS-01222`, but the resulting EBOOT didn't boot. I therefore presumed the missing ingredient was the Japanese BIOS. So, I went hunting for a tool that could change the reigion of PS1 games to trigger the PSP/Vita to use the Japanese BIOS and potentially fix other USA games as well.
 
