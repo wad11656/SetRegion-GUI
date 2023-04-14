@@ -20,7 +20,7 @@ In the mid-2000s, [the PSP homebrew scene discovered](https://web.archive.org/we
 However, starting with PSP firmware 5.00, if you assigned a JAP Game ID to a USA or PAL game, the resulting EBOOT would become unbootable. Injecting JAP region sectors into the disc image(s) with SetRegion fixes this issue, allowing custom JAP Game IDs to be used on USA/PAL games on PSP FW 5.00 and above. It was also discovered that this region-injection additionally triggers the injected region's BIOS to boot in the emulator, contributing to more compatibility fixes. Since Vita-Adrenaline emulates a form of PSP firmware 6.61, this discovery allows JAP Game IDs to be used on USA/PAL games (and thus new game fixes to be found) on both PSP FW 5.00+ *and* Vita.
 
 ### Which games benefit from changing the region sectors?
-Most of the games that benefit are already published for download online in EBOOT format. Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true) and [The_Ho](https://gbatemp.net/members/the_ho.583322/)'s [thread where new game fixes are discussed is here](https://gbatemp.net/threads/new-mode-to-fix-ps1-games-for-psp-and-psvita.607286/). (I am planning on making a website compiling all Vita/PSP compatibility fixes from myself and The_Ho.)
+Most of the games that benefit are already published for download on ROM distribution sites in EBOOT format (thanks to [The_Ho](https://gbatemp.net/members/the_ho.583322/)). Otherwise, my most up-to-date [PSP PS1 Compatibility List is here](https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true) and [The_Ho](https://gbatemp.net/members/the_ho.583322/)'s [thread where new game fixes are discussed is here](https://gbatemp.net/threads/new-mode-to-fix-ps1-games-for-psp-and-psvita.607286/). (I am planning on making a website compiling all Vita/PSP compatibility fixes from myself and The_Ho.)
 
 ## Finding a game fix yourself
 There's 5 methods that you can mix & match with each other to find a fix for a PS1 game on PSP/Vita:
@@ -74,11 +74,11 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 
 ### EBOOT "Game ID"
 - Affects game compatibility.
-- The ID used in the name of the save folder where your **single-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<GAME_ID>/`).
+- The ID used as the name of the save folder where your **single-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<GAME_ID>/`).
 
 ### EBOOT "Main Game ID"
 - Doesn't affect game compatibility.
-- The ID used in the name of the save folder where your **multi-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
+- The ID used as the name of the save folder where your **multi-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
 - The ID recognized by plugins (e.g., POPSLoader & TempAR).
 
 ### Duplicate "Game ID" Save Conflicts
