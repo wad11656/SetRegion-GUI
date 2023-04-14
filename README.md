@@ -74,11 +74,11 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 
 ### EBOOT "Game ID"
 - Affects game compatibility.
-- The ID used as the name of the save folder where your **single-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<GAME_ID>/`).
+- The ID used as the name for the save folder where your **single-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<GAME_ID>/`).
 
 ### EBOOT "Main Game ID"
 - Doesn't affect game compatibility.
-- The ID used as the name of the save folder where your **multi-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
+- The ID used as the name for the save folder where your **multi-disc EBOOT** save files/Virtual Memory Cards are stored (i.e., `/PSP/SAVEDATA/<MAIN_GAME_ID>/`).
 - The ID recognized by plugins (e.g., POPSLoader & TempAR).
 
 ### Duplicate "Game ID" Save Conflicts
