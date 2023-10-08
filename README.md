@@ -27,44 +27,46 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 1. **[POPSLoader](https://archive.org/details/popsloader-v-4i) (PSP Only)** - Allows you to boot your game through older builds of the PSP PS1 emulator (called "POPS"), potentially fixing your game. Try your game in all the builds listed in POPSLoader before trying custom GameIDs or region injection.
 2. **LibCrypt Patch (PAL only)** - Use [PPF-O-Matic](https://www.romhacking.net/utilities/356/) to apply [your game's PPF patch](https://archive.org/details/lib-crypt-ppf-patches) to patch out any game-breaking protection mechanisms.
    -  Unlike modern PS1 emulators, the PSP/Vita does _not_ automatically patch out LibCrypt protection.
-3. **Custom Game ID** - Changing this field in PSX2PSP to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
-4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP.
+3. **Custom Game ID** - Changing this field in PSX2PSP or pop-fe to a Game ID of a different game can unlock special emulator settings tied to that Game ID, potentially fixing your game.
+4. **Region Injection** - Only necessary if assigning a JAP GameID to a USA/PAL disc in PSX2PSP or pop-fe.
    - USA/PAL EBOOTs with JAP Game IDs that are booted via POPSLoader v4.01 or below do not need region injection, but if you're actively hunting for a game fix, you should always just region-inject your game anyway so you can test JAP Game IDs on POPSLoader firmwares above 4.01 too.
 5. **Disc Image Hacking** - When custom Game IDs and Region Injection fails, hacking the disc image may be the only possible fix.
    - For example, The_Ho created a new fix for _Jackie Chan Stuntmaster_ by editing out the FVMs on the disc with a hex editor, and I found one for _Worms_ by overwriting the hex values of all the FMVs with `0`s. (FMV playback seems to be a relatively common pitfall for the emulator.)
 
 ### Game IDs proven to be helpful:
 
-#### IDs where JAP region injection is required for USA/PAL games:
- - **SLPS-01222 & SLPS-01223 [Biohazard 2]**: Most fixes were found using these IDs. Can also increase framerate.
- - **SLPS-02190 & SLPS-02191 [Dragon Valor]**
- - **SLPM-86500 & SLPM-86501 [Dragon Quest VII]**
- - **SLPS-01724 [Mobile Suit Gundam - Char's Counterattack]**
- - **SLPS-01490 & SLPS-01491 [Brave Fencer Musashiden]**
- - **SLPS-01156 [Momotarou Dentetsu 7]**
- - **SLPS-02180 [Dino Crisis]**
- - The Game ID of the JAP variant of the game
+Some geniuses figured out all the patched GameIDs: https://www.psdevwiki.com/psp/POPS#Internal_Compatibility_Flags
 
-#### IDs where no region injection is required:
- - **SLES-00972 & SLES-00973 [Resident Evil 2 (PAL)]**
- - **SCUS-94640 [Syphon Filter 3]**
- - The Game ID of the PAL/USA variant of the game
+#### ~~IDs where JAP region injection is required for USA/PAL games:~~
+ - ~~**SLPS-01222 & SLPS-01223 [Biohazard 2]**: Most fixes were found using these IDs. Can also increase framerate.~~
+ - ~~**SLPS-02190 & SLPS-02191 [Dragon Valor]**~~
+ - ~~**SLPM-86500 & SLPM-86501 [Dragon Quest VII]**~~
+ - ~~**SLPS-01724 [Mobile Suit Gundam - Char's Counterattack]**~~
+ - ~~**SLPS-01490 & SLPS-01491 [Brave Fencer Musashiden]**~~
+ - ~~**SLPS-01156 [Momotarou Dentetsu 7]**~~
+ - ~~**SLPS-02180 [Dino Crisis]**~~
+ - ~~The Game ID of the JAP variant of the game~~
 
-*This list is incomplete. [You can also try the POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).
+#### ~~IDs where no region injection is required:~~
+ - ~~**SLES-00972 & SLES-00973 [Resident Evil 2 (PAL)]**~~
+ - ~~**SCUS-94640 [Syphon Filter 3]**~~
+ - ~~The Game ID of the PAL/USA variant of the game~~
+
+~~*This list is incomplete. [You can also try the POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).~~
 
 #### Game ID Tips:
 - Try Game IDs on different POPSLoader versions, too.
-- If none of these Game IDs help, try Game IDs not listed here.
-  - [JAP Game IDs](https://psxdatacenter.com/ntsc-j_list.html) seem most helpful.
+- ~~If none of these Game IDs help, try Game IDs not listed here.~~
+  - ~~[JAP Game IDs](https://psxdatacenter.com/ntsc-j_list.html) seem most helpful.~~
 
 ## EBOOT Tips:
 
  - Check online for an EBOOT download of your game first. The working EBOOT (with region sectors injected and/or modified Game ID, if necessary,) is probably already there.
- - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool or PSX2PSP.
- - Always use a **Compression** setting above **0** (I prefer **9**) in PSX2PSP when creating an EBOOT.
+ - Make sure to combine multi-track/multi-`.bin` PS1 images into a single `.bin` with a tool like [CDMage Beta](https://www.videohelp.com/software/CDMage) first, before using this tool (or PSX2PSP...I think pop-fe handles multi-`.bin` discs fine).
+ - When using PSX2PSP, always use a **Compression** setting above **0** (I prefer **9**) when creating an EBOOT.
    - **Compression 0** only occasionally works on low PSP firmwares. It's probably best to just avoid it.
- - Turn off **Theme Mode** when using PSX2PSP.
- - Your PSP firmware version--and custom firmware version--makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true), make sure to test your game(s) on 6.61 PRO-C2 first.
+ - When using PSX2PSP, turn off **Theme Mode**.
+ - Your PSP firmware version makes a difference in compatibility. All my PSP testing was done on custom firmware 6.61 PRO-C2. If you find discrepancies on your hardware vs. what I say here or on my [Compatibility List](https://docs.google.com/spreadsheets/d/13TRadnKyoOjzpxzMeVrO8adzbRNWccr5/edit?usp=sharing&ouid=106897808841980407300&rtpof=true&sd=true), make sure to test your game(s) on 6.61 PRO-C2 first.
  - The name of an EBOOT folder must be less than 32 characters long.
  - (Multi-track/`.bin` games only) On firmwares 5.00 and above on PSP, one must use the [CDDA Enabler](https://archive.org/details/cdda_enabler_v2) plugin to enable CDDA audio. This plugin is not perfect and sometimes causes games to crash when playing certain audio tracks. However, since the Vita's PS1 emulator uses a different method of enabling CDDA audio, the same audio tracks that make the PSP crash often do _not_ make Vita-Adrenaline crash. (Viva la Vita)
    - Try PSP firmwares 4.01 and below via POPSLoader to bypass crashes caused by the CDDA Enabler plugin.
