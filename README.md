@@ -12,7 +12,7 @@ This is a GUI version of the original <a href="https://www.consolecopyworld.com/
 Converts the region sectors of PS1 `.bin` disc images into JAP, PAL, or USA without modifying the game's display resolution.
 
 ### Why?
-Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita-Adrenaline PS1 emulators.
+Primarily used today to fix/increase certain PS1 games' compatibility on the PSP & Vita-Adrenaline PS1 emulators. To be used before creating an EBOOT with [pop-fe](https://github.com/sahlberg/pop-fe) (preferred)/[PSX2PSP](https://cdromance.com/guides/psx2psp-tutorial/)/[Popstation](http://web.archive.org/web/*/http://zinga.quotaless.com/PsGUI//*).
 
 ### How does changing the region sectors help?
 In the mid-2000s, [the PSP homebrew scene discovered](https://web.archive.org/web/20220924090130/https://htmlpreview.github.io/?https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/_OLD%20POPS%20Compatibility%20List.html) that assigning custom Game IDs to PS1 discs when creating an EBOOT (as opposed to using <a href="https://raw.githubusercontent.com/wad11656/SetRegion-GUI/main/README%20assets/Game%20ID%20Example.png">their native IDs</a>) can increase compatibility on the PSP PS1 emulator. (This behavior carried over to the Vita too.)
