@@ -35,29 +35,27 @@ There's 5 methods that you can mix & match with each other to find a fix for a P
 
 ### Game IDs proven to be helpful:
 
-Some geniuses figured out all the patched GameIDs: https://www.psdevwiki.com/psp/POPS#Internal_Compatibility_Flags
+#### IDs where JAP region injection is required for USA/PAL games:
+ - **SLPS-01222 & SLPS-01223 [Biohazard 2]**: Most fixes were found using these IDs. Can also increase framerate.
+ - **SLPS-02190 & SLPS-02191 [Dragon Valor]**
+ - **SLPM-86500 & SLPM-86501 [Dragon Quest VII]**
+ - **SLPS-01724 [Mobile Suit Gundam - Char's Counterattack]**
+ - **SLPS-01490 & SLPS-01491 [Brave Fencer Musashiden]**
+ - **SLPS-01156 [Momotarou Dentetsu 7]**
+ - **SLPS-02180 [Dino Crisis]**
+ - The Game ID of the JAP variant of the game
 
-#### ~~IDs where JAP region injection is required for USA/PAL games:~~
- - ~~**SLPS-01222 & SLPS-01223 [Biohazard 2]**: Most fixes were found using these IDs. Can also increase framerate.~~
- - ~~**SLPS-02190 & SLPS-02191 [Dragon Valor]**~~
- - ~~**SLPM-86500 & SLPM-86501 [Dragon Quest VII]**~~
- - ~~**SLPS-01724 [Mobile Suit Gundam - Char's Counterattack]**~~
- - ~~**SLPS-01490 & SLPS-01491 [Brave Fencer Musashiden]**~~
- - ~~**SLPS-01156 [Momotarou Dentetsu 7]**~~
- - ~~**SLPS-02180 [Dino Crisis]**~~
- - ~~The Game ID of the JAP variant of the game~~
+#### IDs where no region injection is required:
+ - **SLES-00972 & SLES-00973 [Resident Evil 2 (PAL)]**
+ - **SCUS-94640 [Syphon Filter 3]**
+ - The Game ID of the PAL/USA variant of the game
 
-#### ~~IDs where no region injection is required:~~
- - ~~**SLES-00972 & SLES-00973 [Resident Evil 2 (PAL)]**~~
- - ~~**SCUS-94640 [Syphon Filter 3]**~~
- - ~~The Game ID of the PAL/USA variant of the game~~
-
-~~*This list is incomplete. [You can also try the POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).~~
+*This list is incomplete. You can also try the [6.61 POPS Compatibility flags](https://www.psdevwiki.com/psp/POPS#Internal_Compatibility_Flags) & [POPS Binaries Game IDs](https://github.com/wad11656/SetRegion-GUI/blob/main/README%20assets/POPS%20Binaries%20Game%20IDs.md).
 
 #### Game ID Tips:
 - Try Game IDs on different POPSLoader versions, too.
-- ~~If none of these Game IDs help, try Game IDs not listed here.~~
-  - ~~[JAP Game IDs](https://psxdatacenter.com/ntsc-j_list.html) seem most helpful.~~
+- If none of these Game IDs help, try Game IDs not listed here.
+  - [JAP Game IDs](https://psxdatacenter.com/ntsc-j_list.html) seem most helpful.
 
 ## EBOOT Tips:
 
